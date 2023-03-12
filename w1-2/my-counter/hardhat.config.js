@@ -16,14 +16,14 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
       chainId: 5,
     },
-    mumbai: {
-      url: process.env.MUMBAI_RPC_URL,
-      // url: "https://endpoints.omniatech.io/v1/matic/mumbai/public",
-      accounts: {
-        mnemonic: [process.env.PolyTestMnemonic],
-      },
-      chainId: 80001,
-    },
+    // mumbai: {
+    //   url: process.env.MUMBAI_RPC_URL,
+    //   // url: "https://endpoints.omniatech.io/v1/matic/mumbai/public",
+    //   accounts: {
+    //     mnemonic: [process.env.PolyTestMnemonic],
+    //   },
+    //   chainId: 80001,
+    // },
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_KEY
