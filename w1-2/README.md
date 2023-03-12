@@ -1,6 +1,6 @@
 # 1. deploy and verify
 
-Deployment
+Deployment(这是旧版本的npm，nvm切换版本后已正常没有 warning 就不截图了)
 
 ![screen shot](1.deploy-and-verify.png "deploy-and-verify.png")
 
